@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LJDB' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LJDB
+  pod 'FMDB'
+  pod 'YYKit'
+  
+  target 'LJDBTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LJDBUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
